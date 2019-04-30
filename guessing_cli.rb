@@ -11,7 +11,6 @@ def run_guessing_game
     end
     if guess == random
       puts "You guessed the correct number!"
-      break
     else
       puts "The computer guessed #{random}."
     end
